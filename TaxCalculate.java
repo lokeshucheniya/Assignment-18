@@ -8,13 +8,14 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 class TaxCalculate {
-
+	
+	//Instance variables
 	private String empName;
 	private double empSal;
 	private boolean isIndian;
 	
 	
-	
+	//Parameterised Constructor
 	public TaxCalculate(String empName, int empSal, boolean isIndian) {
 		super();
 		this.empName = empName;
@@ -22,6 +23,7 @@ class TaxCalculate {
 		this.isIndian = isIndian;
 	}
 	
+	//Method CalculatorTax for calculating tax
 	public double CalculatorTax() throws EmployeeNameInvalidException, CountryNotValidException, TaxNotElegibleException {
 		double taxAmt =0;
 		if(isIndian==true) {
