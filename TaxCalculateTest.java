@@ -6,6 +6,7 @@ import junit.framework.Assert;
 
 public class TaxCalculateTest {
 	
+	//Test cases for various Possibilites
 	@SuppressWarnings("deprecation")
 	@Test(expected=CountryNotValidException.class)
 	public void test1() throws EmployeeNameInvalidException, CountryNotValidException, TaxNotElegibleException {
