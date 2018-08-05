@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class Calculator {
 
+	//Calculator methods for different operations
 	@Test
 	public void AdditionTest() {
 		CalculatorTest calculator = new CalculatorTest();
